@@ -12,7 +12,7 @@ def index3():
         },
         {
             'author': {'username': 'Susan'},
-            'body': 'DevNet CREATE is so cool!'
+            'body': 'GSX is so cool!'
         }
     ]
     return render_template('index3.html', title='Home', user=user, posts=posts)
