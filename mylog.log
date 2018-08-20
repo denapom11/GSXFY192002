@@ -1,0 +1,94 @@
+06/13/2018 12:08:21 PM DEBUG: This is a debug message. You should see this in the file.
+06/13/2018 12:08:21 PM INFO: This is an info message. You should see this in the file.
+06/13/2018 12:08:21 PM WARNING: This is a warning message. You should see this in the file.
+06/13/2018 12:08:21 PM DEBUG: starting thread (client mode): 0x4932e48
+06/13/2018 12:08:21 PM DEBUG: Local version/idstring: SSH-2.0-paramiko_2.4.1
+06/13/2018 12:08:22 PM DEBUG: Remote version/idstring: SSH-2.0-Cisco-1.25
+06/13/2018 12:08:22 PM INFO: Connected (version 2.0, client Cisco-1.25)
+06/13/2018 12:08:22 PM DEBUG: kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr'] client mac:['hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha2-256', 'hmac-sha2-512', 'hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+06/13/2018 12:08:22 PM DEBUG: Kex agreed: diffie-hellman-group-exchange-sha1
+06/13/2018 12:08:22 PM DEBUG: HostKey agreed: ssh-rsa
+06/13/2018 12:08:22 PM DEBUG: Cipher agreed: aes128-ctr
+06/13/2018 12:08:22 PM DEBUG: MAC agreed: hmac-sha2-256
+06/13/2018 12:08:22 PM DEBUG: Compression agreed: none
+06/13/2018 12:08:22 PM DEBUG: Got server p (2048 bits)
+06/13/2018 12:08:22 PM DEBUG: kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+06/13/2018 12:08:22 PM DEBUG: Switch to new keys ...
+06/13/2018 12:08:22 PM DEBUG: Adding ssh-rsa host key for 10.10.20.48: b'75d7eb2482f0ef46b6d5af08eb68d86d'
+06/13/2018 12:08:22 PM DEBUG: userauth is OK
+06/13/2018 12:08:23 PM INFO: Authentication (password) successful!
+06/13/2018 12:08:23 PM DEBUG: [chan 0] Max packet in: 32768 bytes
+06/13/2018 12:08:23 PM DEBUG: [chan 0] Max packet out: 4096 bytes
+06/13/2018 12:08:23 PM DEBUG: Secsh channel 0 opened.
+06/13/2018 12:08:23 PM DEBUG: [chan 0] Sesch channel 0 request ok
+06/13/2018 12:08:23 PM DEBUG: [chan 0] Sesch channel 0 request ok
+06/13/2018 12:08:24 PM DEBUG: read_channel: 
+Welcome to the DevNet IOS XE Programmability Sandbox
+
+The following programmability features are already enabled: 
+  - NETCONF
+  - RESTCONF
+
+
+
+
+csr1000v#
+06/13/2018 12:08:24 PM DEBUG: read_channel: 
+06/13/2018 12:08:26 PM DEBUG: read_channel: 
+06/13/2018 12:08:26 PM DEBUG: read_channel: 
+06/13/2018 12:08:26 PM DEBUG: write_channel: b'\n'
+06/13/2018 12:08:26 PM DEBUG: read_channel: 
+
+06/13/2018 12:08:26 PM DEBUG: read_channel: 
+06/13/2018 12:08:26 PM DEBUG: write_channel: b'\n'
+06/13/2018 12:08:26 PM DEBUG: read_channel: csr1000v#
+csr1000v#
+06/13/2018 12:08:26 PM DEBUG: read_channel: 
+06/13/2018 12:08:27 PM DEBUG: read_channel: 
+06/13/2018 12:08:27 PM DEBUG: write_channel: b'terminal length 0\n'
+06/13/2018 12:08:27 PM DEBUG: _read_channel_expect read_data: t
+06/13/2018 12:08:27 PM DEBUG: _read_channel_expect read_data: erminal length 0
+csr1000v#
+06/13/2018 12:08:27 PM DEBUG: write_channel: b'terminal width 511\n'
+06/13/2018 12:08:27 PM DEBUG: _read_channel_expect read_data: t
+06/13/2018 12:08:27 PM DEBUG: _read_channel_expect read_data: erminal width 511
+csr1000v#
+06/13/2018 12:08:28 PM DEBUG: read_channel: 
+06/13/2018 12:08:28 PM DEBUG: read_channel: 
+06/13/2018 12:08:28 PM DEBUG: write_channel: b'\n'
+06/13/2018 12:08:28 PM DEBUG: read_channel: 
+csr1000v#
+06/13/2018 12:08:28 PM DEBUG: read_channel: 
+06/13/2018 12:08:28 PM DEBUG: read_channel: 
+06/13/2018 12:08:28 PM DEBUG: write_channel: b'show run int Gig1\n'
+06/13/2018 12:08:28 PM DEBUG: read_channel: 
+06/13/2018 12:08:28 PM DEBUG: read_channel: show run int Gig1
+Building configuration...
+
+Current configuration : 149 bytes
+!
+interface GigabitEthernet1
+ description DONT'T TOUCH ME
+ ip address 10.10.20.48 255.255.255.0
+ negotiation auto
+ no mop enabled
+ no mop sysid
+end
+
+csr1000v#
+06/13/2018 12:08:28 PM INFO: Building configuration...
+
+Current configuration : 149 bytes
+!
+interface GigabitEthernet1
+ description DONT'T TOUCH ME
+ ip address 10.10.20.48 255.255.255.0
+ negotiation auto
+ no mop enabled
+ no mop sysid
+end
+
+06/13/2018 12:14:40 PM DEBUG: This is a debug message. You should see this in the file.
+06/13/2018 12:14:40 PM INFO: This is an info message. You should see this in the file.
+06/13/2018 12:14:40 PM WARNING: This is a warning message. You should see this in the file.
+06/13/2018 12:14:48 PM ERROR: Connection to device timed-out: cisco_ios 10.10.20.4:22

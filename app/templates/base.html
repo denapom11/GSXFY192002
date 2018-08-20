@@ -1,0 +1,14 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - flaskCREATE2018</title>
+      {% else %}
+      <title>Welcome to flaskCREATE2018</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>flaskCREATE2018: <a href="/index">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
