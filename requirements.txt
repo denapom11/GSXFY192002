@@ -23,6 +23,6 @@ requests==2.19.1
 scp==0.11.0
 six==1.11.0
 textfsm==0.4.1
-urllib3==1.23
+urllib3==1.26.5
 Werkzeug==0.14.1
 xmltodict==0.11.0
